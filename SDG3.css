@@ -1,0 +1,89 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c5ffc5; /* Light background */
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(135deg, rgb(2, 151, 2), #22e625);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #a0ff97;
+    padding: 50px 20px;
+}
+
+.hero-img {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero-text {
+    max-width: 500px;
+    margin-left: 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    color: #155906;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Card Section Styling */
+.content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: #86f59a;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #007906; 
+}
+
+h3 {
+    color: #007906;
+}

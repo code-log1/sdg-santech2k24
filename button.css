@@ -1,0 +1,17 @@
+.back-btn {
+    background:lightcoral;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    margin-bottom:30px;
+}
+
+.back-btn:hover {
+    transform: scale(1.05); 
+    background:rgb(245, 158, 158);
+}
